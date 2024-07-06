@@ -22,6 +22,7 @@ int main()
 {
     int arr[] = {2, 5, 7, 3, 2, 0};
     int n = 6;
+    //
     /*
     Q1
         It is stable sort
@@ -101,10 +102,11 @@ int main()
     bool check = true;
     for (int i = 0; i < n - 1; i++)
     {
-        if (arr[i] > arr[i + 1] {
-                check = false;
-                break;
-            })
+        if (arr[i] > arr[i + 1])
+        {
+            check = false;
+            break;
+        }
     }
     if (flag)
     {
