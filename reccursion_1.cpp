@@ -104,6 +104,7 @@ bool power_of_two(int n)
 int main()
 
 {
+    // q1
     q1_inc_dec_seq(1, 5);
     sum_odd(1, 9, 0);
     power_of_two(86);
